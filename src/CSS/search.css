@@ -1,0 +1,38 @@
+.filter-btn{
+    background-color: #DF362D;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    color: white;
+    border-radius: 32.5px;
+    border-style: none;
+    font-size: 18px;
+}
+
+.filter-btn:hover{
+    box-shadow: 0px 15px 20px #d0d0d0;
+}
+
+ .filterButton{
+     display: block;
+ }
+ 
+ .card{
+     height: 100%;
+     cursor: pointer;
+     box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+     opacity: 0.9;
+ }
+
+ .card:hover{
+    opacity: 1;
+ }
+
+@media only screen and (max-width: 768px) {
+    .filterButton{
+        display: flex;
+        margin-top: 15px;
+    }
+}

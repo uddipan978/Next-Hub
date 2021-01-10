@@ -1,0 +1,77 @@
+.idipButton{
+
+    
+
+
+font-family: Jaldi;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+
+
+color: #FFFFFF;
+
+background: #DF362D;
+border-radius: 32.5px;
+
+}
+
+.idipInput{
+
+    border-radius: 2%;
+
+
+}
+
+.idipvl {
+    border-left: 1px solid rgb(5, 5, 5);
+    height: 500px;
+    margin-left: 45px;
+    
+    /* left: 50%; */
+    /* margin-left: -3px; */
+    top: 0;
+  }
+
+  .idipmobileHide{
+display: block;
+
+  }
+
+  .createWebsite{
+    display: block;
+    border-left: 1px solid black;
+    padding-left: 15px;
+  }
+
+
+
+
+  @media only screen and (max-width: 991px) {
+    
+    .createWebsite{
+      border-top: 1px solid black;
+      border-left: hidden;
+      margin-top: 15px;
+      width: -webkit-fill-available;
+    }
+  }
+  @media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) {
+
+        /* .idipmobileHide{
+            display: none;
+            
+              }
+
+              .idipvl {
+               
+              } */
+
+
+
+    }
+
+

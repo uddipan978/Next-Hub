@@ -1,0 +1,14 @@
+.linkedSocialApps{
+    background-color: #f0f3f5;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 81.12px;
+    transition: all 0.3s ease 0s;
+}
+
+.linkedSocialApps:hover{
+    transform: translateY(-4px);
+}

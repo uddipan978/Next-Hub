@@ -1,0 +1,111 @@
+.landingBanner {
+  /* position: absolute;
+    width: 500px;
+    height: 400px; */
+
+  background: url("../images/landingBanner.png");
+}
+
+.Landing {
+  max-width: 1651px;
+  margin: auto 6%;
+}
+
+@media only screen and (max-width: 575px) {
+  .Landing {
+    margin: auto 0%;
+  }
+}
+
+.landingImg {
+  width: inherit;
+  padding-top: 40px;
+}
+
+.mainHead {
+  line-height: 71.92px;
+  color: #df362d;
+  font-size: 80px;
+  font-weight: bold;
+  font-family: "Jaldi";
+  text-align: center;
+}
+
+.mainHead span {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media only screen and (max-width: 575px) {
+  .mainHead {
+    line-height: 44px;
+    color: #df362d;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Jaldi";
+    text-align: center;
+  }
+
+  .mainHead span {
+    font-size: 29px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.landing-para {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42.54px;
+  font-family: "Inika", serif;
+  color: #495056;
+  margin-top: 71px;
+  margin-bottom: 71px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .landing-para {
+    font-size: 24px;
+    line-height: 31.27px;
+    font-family: "Inika", serif;
+    text-align: center;
+  }
+
+  /* For mobile phones: */
+  .landingImg {
+    display: none;
+  }
+
+  .Landing .my-button b {
+    font-size: 30px !important;
+    line-height: 40px;
+  }
+}
+
+/* Iphone 11 pro */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .landingBanner {
+    background: none;
+  }
+  .landingImg {
+    display: none;
+  }
+  .landing-para {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42.54px;
+    font-family: "Inika", serif;
+    color: #495056;
+    text-align: center;
+    margin-top: 27px;
+  }
+}
+
+.Landing .my-button b {
+    font-size: 48px !important;
+    line-height: 55px;
+}

@@ -1,0 +1,59 @@
+.profileDisplay{
+    background-color: #f0f3f5;
+    /* height: 100%;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px; */
+    border-radius: 10px;
+    display: table-row-group;
+    
+}
+
+.MuiAvatar-root{
+    width: 100%;
+    height: 100%;
+}
+
+.faceAvatar{
+    width : 50px
+}
+
+.mobView{
+    display : none
+}
+@media only screen and (max-width: 768px) {
+    .webView{
+        display: none;
+    }
+
+    .mobView{
+        display: block;
+    }
+    .profileDisplay{
+        width: 100%;
+        display: -moz-inline-box;
+    }
+
+}
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) {
+            
+            .webView{
+                display: none;
+            }
+
+            .mobView{
+                display: block;
+            }
+            .profileDisplay{
+                width: 100%;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+    }
