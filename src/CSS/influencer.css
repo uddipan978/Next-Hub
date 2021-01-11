@@ -1,14 +1,135 @@
-.linkedSocialApps{
+.linkedSocialApps {
+  background-color: #f0f3f5;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.3s ease 0s;
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 81px;
+  height: 91px;
+  color: #495056;
+  margin: 25px 0;
+}
+
+.linkedSocialApps:hover {
+  transform: translateY(-4px);
+}
+
+.profile_pic {
+  width: 199.68px;
+  height: 199.68px;
+}
+
+.top-name {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35.793px;
+  line-height: 60px;
+  /* identical to box height */
+
+  text-align: "center";
+  color: #495056;
+}
+
+.atTheRate {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23.862px;
+  line-height: 40px;
+  /* identical to box height */
+
+  color: #df362d;
+  text-align: "center";
+}
+
+.my-btn-text {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23.862px;
+  /* line-height: 40px; */
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.sks {
+  width: 30% !important;
+  border-radius: 10px;
+  margin-left: auto !important;
+  margin-right: auto;
+}
+
+.cust-content {
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 575px) {
+  .linkedSocialApps {
     background-color: #f0f3f5;
     width: 100%;
     text-align: center;
     border-radius: 10px;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 81.12px;
     transition: all 0.3s ease 0s;
-}
+    font-family: "Jaldi";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39.6409px !important;
+    line-height: 67px !important;
+    height: 75.15px !important;
+    color: #495056;
+    margin: 10px 0;
+  }
 
-.linkedSocialApps:hover{
-    transform: translateY(-4px);
+  .profile_pic {
+    width: 147.99px !important;
+    height: 147.99px !important;
+  }
+
+  .sks {
+    width: 100% !important;
+  }
+
+  .top-name {
+    font-family: "Jaldi";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26.5272px;
+    line-height: 45px;
+    /* identical to box height */
+
+    color: #495056;
+  }
+
+  .atTheRate {
+    font-family: "Jaldi";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.6848px;
+    line-height: 30px;
+    /* identical to box height */
+
+    color: #df362d;
+  }
+
+  .my-btn-text {
+    font-family: "Jaldi";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.6848px;
+    /* line-height: 30px; */
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
 }

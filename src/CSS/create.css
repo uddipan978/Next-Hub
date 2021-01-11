@@ -1,0 +1,107 @@
+.BACK-IMG {
+  width: 56.01px;
+  height: 54.59px;
+}
+
+.BACK {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.input-spcl {
+  background: #ffffff;
+  border: 2px solid #617691;
+  box-sizing: border-box;
+  border-radius: 10px;
+  /* width: 558px; */
+  height: 79px;
+}
+
+.input-spcl-small {
+  background: #ffffff;
+  border: 2px solid #617691;
+  box-sizing: border-box;
+  border-radius: 10px;
+  /* width: 558px; */
+  height: 65px;
+}
+
+.input-spcl-small::placeholder {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 54px;
+
+  color: rgba(73, 80, 86, 0.6);
+}
+
+.input-header::placeholder {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px !important;
+  /* line-height: 81px; */
+
+  color: rgba(73, 80, 86, 0.6);
+}
+
+.input-spcl::placeholder {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 54px;
+
+  color: rgba(73, 80, 86, 0.6);
+}
+
+.input-header {
+  width: 585px !important;
+}
+
+.file {
+  position: relative;
+  overflow: hidden;
+  /* margin-top: 100px; */
+  /* margin-bottom: 100px; */
+  width: 164px;
+  height: 54px;
+  left: 50%;
+  top: 50%;
+  background: #617691;
+  border-radius: 6.69811px;
+  transform: translate(-50%, -50%);
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32.1509px;
+  line-height: 54px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 10% ; */
+  color: #ffffff;
+}
+
+.file-wrapper {
+  width: 100%;
+  background: #ffffff;
+  border: 2px solid #617691;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 775px;
+  height: 383px;
+}
+
+.spcl_lable {
+  font-family: "Jaldi";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 68px;
+
+  color: #495056;
+}
