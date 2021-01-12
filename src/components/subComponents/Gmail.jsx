@@ -33,7 +33,7 @@ export default (props) => {
     <div className="login-page">
       <GoogleLogin
         autoLoad={false}
-        clientId="104590688028-biofee5gi73s9i0dc9gm9u1mmi956ub1.apps.googleusercontent.com"
+        clientId="104590688028-6n537ii0nr6hs2m2v0hk81lndqui67ct.apps.googleusercontent.com"
         onSuccess={responseGoogle}
         onFailure={responseGoogle}
         cookiePolicy={"single_host_origin"}

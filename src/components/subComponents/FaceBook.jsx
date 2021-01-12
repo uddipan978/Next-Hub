@@ -29,7 +29,7 @@ function FaceBook(props) {
     <div className="login-page">
       <FacebookLogin
         autoLoad={false}
-        appId="147442823493810"
+        appId="849538692469596"
         cookie={false}
         fields="name,email,picture"
         callback={responseFacebook}
