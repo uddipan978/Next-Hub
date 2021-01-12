@@ -18,7 +18,7 @@ import axios from "axios"
 import InfluencerCreateDeal from './components/pages/influencerCreateDeal';
 
 
-axios.defaults.baseURL = "http://3.133.2.145:3000/"
+axios.defaults.baseURL = "https://api.nexthub.me/"
 // axios.defaults.baseURL = "http://localhost:5000/"
 function App() {
   return (
